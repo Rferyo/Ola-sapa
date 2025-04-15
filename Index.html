@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>22 razones para volver contigo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Shadows Into Light', cursive;
+      background:url(fondo.png);  
+      background-size: cover;
+      color: #4b4b4b;
+      padding: 40px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      margin-bottom: 20px;
+      color: #ffffff;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .accordion {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .reason {
+      background: rgba(255, 255, 255, 0.8);
+      margin: 10px 0;
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    }
+    .reason button {
+      width: 100%;
+      background: none;
+      border: none;
+      padding: 20px;
+      text-align: left;
+      font-size: 1.3em;
+      cursor: pointer;
+    }
+    .reason-content {
+      display: none;
+      padding: 0 20px 20px;
+      font-size: 1.1em;
+    }
+    audio {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>22 razones para volver contigo</h1>
+  <div class="accordion">
+    <div class="reason">
+      <button onclick="toggleReason(this)">1. Porque aún sonrío cuando pienso en ti</button>
+      <div class="reason-content">
+        <p><b>Porque a pesar de todo sigues siendo muy especial para mi y la unica persona en la que cuando me escribe me alegro por el simple hecho de que me escribas o mandes algo asi sea una sola foto y despues te desaparezcas por todo el dia y vuelvas en la noche.</b></p>
+      </div>
+    </div>
+    <div class="reason">
+        <button onclick="toggleReason(this)">2. Porque cada rincón me recuerda a un momento contigo</button>
+        <div class="reason-content">
+          <p><b>Cada lugar que solíamos ir juntos o hablar de ellos me recuerda a ti así este yo solo, por ejemplo caminar por la Atlántida o ir a popis,.recuerdo cuando solíamos ir juntos por ahí y quiero volver a esos tiempos.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">3. Porque tu abrazo era mi lugar seguro</button>
+        <div class="reason-content">
+          <p><b>Porque cada abrazo tuyo me sentía cómodo, seguro, feliz y era un momento donde me sentía único y llenaba ese pedazo de mi alma.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">4. Porque contigo, incluso los silencios tenían sentido</button>
+        <div class="reason-content">
+          <p><b>Porque así estuvieramos horas sin decir nada solamente viéndonos las caras y otra cosa me sentía en paz con el simple hecho de tenerte a mi lado.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">5. Porque nuestras locuras eran únicas, como nosotros</button>
+        <div class="reason-content">
+          <p><b>No tuvimos muchas locuras pero las pocas que tuvimos eran buenísimas y muy divertidas y creo que por el hecho de que los dos somos iguales.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">6. Porque nadie me mira como tú lo hacías</button>
+        <div class="reason-content">
+          <p><b>Con esa mezcla de ternura, complicidad y amor verdadero.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">7. Porque contigo aprendí a amar de verdad</button>
+        <div class="reason-content">
+          <p><b>Porque tú me enseñaste a comprender lo que de verdad es amar y no simplemente estar ahí si no dar y demostrar lo que es estar enamorado en verdad.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">8. Porque juntos éramos fuego, caos y magia</button>
+        <div class="reason-content">
+          <p><b>Éramos intensidad pura, la conexion entre nosotros dos es demasiado fuerte a pesar de lo que hemos pasado como para dejarlo perder.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">9. Porque siempre supiste calmar mis tormentas</button>
+        <div class="reason-content">
+          <p><b>Eras unas de las pocas personas que con el simple hecho de mandarme un mensaje o una foto en un mal día podía hacer cambiar mi estado de ánimo.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">10. Porque tu risa era mi sonido favorito</button>
+        <div class="reason-content">
+          <p><b>Escucharte reír me daba mil años de vida, daba igual si era por un chiste malo o por algo que hacía, sentía que estaba haciendo las cosas bien.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">11. Porque tus manías me parecían adorables</button>
+        <div class="reason-content">
+          <p><b>Incluso las cosas que te molestaban me hacían sonreír.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">12. Porque fuiste mi mejor amigo antes que todo</button>
+        <div class="reason-content">
+          <p><b>Y eso hizo que todo fuera más real, más fuerte, más nuestro.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">13. Porque los planes tontos contigo eran los mejores</button>
+        <div class="reason-content">
+          <p><b>Me divertía más contigo hablando o haciendo cualquier cosa que estando tomando o jodiendo con los muchachos.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">14. Porque aún con discusiones, nunca quise irme</button>
+        <div class="reason-content">
+          <p><b>Se que pasamos de todo y la mayoria fue por mi culpa el terminar y volver a cada rato pero creeme que no hay nada que mas quiera en este mundo que volver a tu lado. Porque al final del día, siempre eras tú.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">15. Porque cada canción bonita me habla de ti</button>
+        <div class="reason-content">
+          <p><b>Cada cancion de amor que escucho es inevitable pensar en mi y recordarte porque se que te gustan ese tipo de canciones aparte eres todo lo que describen siempre en esas canciones.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">16. Porque éramos un equipo, incluso en lo más difícil</button>
+        <div class="reason-content">
+          <p><b>Siempre nos apoyabamos a pesar de todo, asi estuvieramos juntos, separados, molestos daba igual porque siempre estabamos uno para el otro.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">17. Porque contigo sentía que el mundo era más suave</button>
+        <div class="reason-content">
+          <p><b>Contigo todo los problemas que tenia en mente se alejaban con el simple hecho de escribirme o abrazarme y estar ahi para mi, sentia que lo mejor del mundo.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">18. Porque me conocías como nadie más</button>
+        <div class="reason-content">
+          <p><b>Solamente con verme la cara o escuchar el como hablaba ya sabias que me pasaba o que estaba pensando y sabias como ayudarme a calmarme o a solucionar el problema que me pasaba en ese momento.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">19. Porque tu forma de amar me marcó para siempre</button>
+        <div class="reason-content">
+          <p><b>Ninguna persona en este mundo me hara sentir lo que siento por ti ni amar de la misma forma en que te amo a ti.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">20. Porque aunque duela, te sigo eligiendo</button>
+        <div class="reason-content">
+          <p><b>Duele es el miedo a pensar que te puedo perder para siempre y eso es lo que no quiero, por eso siempre termino intendolo nuevamente pero mejor.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">21. Porque no me imagino un futuro sin ti</button>
+        <div class="reason-content">
+          <p><b>La verdad es que a pesar de todo lo que hemos pasado, lo que la gente dice, las funas y todo, yo sigo pensando que en verdad podemos hacerlo bien y volver a como todo era antes y mucho mejor ya que los dos sabemos lo que queremos y hemos pasado muchas cosas juntos tanto buenas como malas, siento que todavia nos queda mucho juntos solo hay que arriesgarnos por un futuro mejor. Y si me das la oportunidad, quiero que lo construyamos juntos.</b></p>
+        </div>
+      </div>
+      <div class="reason">
+        <button onclick="toggleReason(this)">22. Esta razon ya se me habia acabado las ideas asi que solo dire lo que siento </button>
+        <div class="reason-content">
+          <p><b>Ela, bueno nada ya no me queda mucho por decir ya todo que en tu decison, en verdad hice esto porque es lo que deseo y ps ya te lo dije yo no soy como los otros igualados con los que hablas que capaz te hacen un pdf todo copiado de internet ps yo no, yo te hago toda una pagina web toda arreglada con pequeñas cosas que nos indetifican y nos gustan a los dos, asi que sin nada que decir, Te amo mucho sapa </b></p>
+        </div>
+      </div>
+    </div>
+        </div>
+    <script>
+      function toggleReason(btn) {
+        const content = btn.nextElementSibling;
+        content.style.display = content.style.display === 'block' ? 'none' : 'block';
+      }
+    </script>
+  </body>
+  <div style="text-align: center; margin-top: 50px;">
+    <button onclick="alert('¿La tomamos? 🖤')" 
+            style="background-color: #bbbabc; color: white; padding: 15px 30px; border: none; border-radius: 30px; font-size: 18px; cursor: pointer; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.2s;">
+      ¿Una última oportunidad?
+    </button>
+  </div>
+  
+  </html>
+  
+  
